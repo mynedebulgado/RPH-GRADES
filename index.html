@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grade Portals — Readings in Philippine History</title>
+<style>
+  :root{
+    --navy:#16213E; --navy-deep:#0D1526; --gold:#C9A227; --gold-soft:#E8D9A0;
+    --paper:#F6F4EE; --ink:#1A1A1A; --ink-soft:#5B5B54; --line:#D9D4C4;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  *{box-sizing:inherit;}
+  body{
+    margin:0; min-height:100%; background:var(--paper); color:var(--ink);
+    font-family:'Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --paper:#12151C; --ink:#EDEAE0; --ink-soft:#A9A597; --line:#2B2F3A; }
+  }
+  :root[data-theme="dark"]{ --paper:#12151C; --ink:#EDEAE0; --ink-soft:#A9A597; --line:#2B2F3A; }
+
+  .seal-bar{ background:var(--navy-deep); color:var(--gold-soft); text-align:center; padding:.5rem 1rem; font-family:Georgia,serif; font-size:.78rem; letter-spacing:.03em; }
+  header{ max-width:800px; margin:0 auto; padding:2.6rem 1.5rem 1.2rem; text-align:center; }
+  header .school{ font-family:Georgia,serif; font-size:.95rem; color:var(--ink-soft); }
+  header h1{ font-size:2rem; line-height:1.2; margin:.5rem 0 .3rem; font-weight:600; }
+  header p.sub{ color:var(--ink-soft); font-size:1rem; margin:0; }
+
+  main{ max-width:760px; margin:0 auto; padding:1.4rem 1.5rem 3rem; }
+
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+  @media (max-width:600px){ .grid{ grid-template-columns:1fr; } }
+
+  a.card{
+    display:block; text-decoration:none; color:inherit;
+    border:1px solid var(--line); border-radius:2px; padding:1.5rem 1.5rem 1.4rem;
+    position:relative; transition:transform .12s ease, box-shadow .12s ease;
+  }
+  a.card::before{ content:""; position:absolute; inset:6px; border:1px solid var(--line); pointer-events:none; opacity:.55; }
+  a.card:hover{ transform:translateY(-2px); box-shadow:0 10px 24px rgba(0,0,0,.12); border-color:var(--gold); }
+  a.card:hover::before{ border-color:var(--gold); opacity:.8; }
+
+  .code{ font-family:Georgia,serif; font-size:.78rem; letter-spacing:.06em; color:var(--gold); text-transform:uppercase; }
+  .title{ font-size:1.25rem; font-weight:600; margin:.35rem 0 .5rem; }
+  .meta{ color:var(--ink-soft); font-size:.88rem; line-height:1.5; }
+  .go{ margin-top:1rem; font-size:.85rem; color:var(--navy); }
+  :root[data-theme="dark"] .go, @media (prefers-color-scheme: dark){ .go{ color:var(--gold-soft); } }
+
+  .note{ color:var(--ink-soft); font-size:.82rem; text-align:center; margin-top:2rem; line-height:1.5; }
+</style>
+</head>
+<body>
+
+<div class="seal-bar">ACADEMIA DE TECNOLOGIA IN MINDANAO, INC. &nbsp;·&nbsp; COTABATO CITY</div>
+
+<header>
+  <div class="school">1st Semester, A.Y. 2026&ndash;2027</div>
+  <h1>Grade Portals</h1>
+  <p class="sub">Readings in Philippine History &nbsp;&middot;&nbsp; DEBULGADO, SHIELA MAE G.</p>
+</header>
+
+<main>
+  <div class="grid">
+    <a class="card" href="gec117-tth-830.html" target="_blank" rel="noopener">
+      <div class="code">GEC 117</div>
+      <div class="title">TTH &nbsp;8:30&ndash;10:00</div>
+      <div class="meta">3rd Court &middot; 47 students</div>
+      <div class="go">Open portal &rarr;</div>
+    </a>
+
+    <a class="card" href="gec117-tth-2pm.html" target="_blank" rel="noopener">
+      <div class="code">GEC 117</div>
+      <div class="title">TTH &nbsp;2:00&ndash;3:30</div>
+      <div class="meta">3rd Court &middot; 45 students</div>
+      <div class="go">Open portal &rarr;</div>
+    </a>
+
+    <a class="card" href="gec111-mw-1230.html" target="_blank" rel="noopener">
+      <div class="code">GEC 111</div>
+      <div class="title">MW &nbsp;12:30&ndash;2:00</div>
+      <div class="meta">Room 105 &middot; 65 students</div>
+      <div class="go">Open portal &rarr;</div>
+    </a>
+
+    <a class="card" href="gec117-mw-2pm.html" target="_blank" rel="noopener">
+      <div class="code">GEC 117</div>
+      <div class="title">MW &nbsp;2:00&ndash;3:30</div>
+      <div class="meta">Court Room &middot; 52 students</div>
+      <div class="go">Open portal &rarr;</div>
+    </a>
+  </div>
+
+  <div class="note">Select your class and section above, then enter your Student ID and Full Name to view your Prelim, Midterm and Final grades.</div>
+</main>
+
+</body>
+</html>
